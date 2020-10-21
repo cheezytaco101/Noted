@@ -8,20 +8,33 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-.noteBook {
-  
+#noteBook {
+  background-color: white;
+  border-radius: 4%;
+  height: 700px;
+  width: 550px;
+  margin-left: 15%;
+  margin-top: 50px;
+  position: relative;
 }
 
-.showbox {
-  background-color: grey;
-}
 
 #sidebar {
   height: 800px;
-  width: 200px;
+  width: 25%;
+  background-color: #222831;
 }
 
 #display {
+  background-color: #393e46;
   height: 800px;
-  width: 800px;
+  width: 75%;
+}
+
+#titleBox {
+  width: 50%;
+  height: 100px;
+  border-style: dashed;
+  margin-left: 25%;
+  top: 200px;
 }
