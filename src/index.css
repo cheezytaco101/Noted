@@ -45,13 +45,15 @@ body {
   position: absolute;
 }
 
-
-#noteBook-tab {
+#noteBook-tabContainer {
   position: absolute;
-  height: 42px;
-  width: 100px;
   left: 80%;
   top: 100px;
+}
+
+#noteBook-tab {
+  height: 42px;
+  width: 100px;
   background-color: lightcoral;
   text-align: center;
   font-family: "Caveat";
@@ -60,6 +62,7 @@ body {
   transform: translateY(0%);
   border: none;
   transition: width 0.25s, transform 0.25s;
+  margin-bottom: -5px;
 }
 
 
@@ -79,6 +82,7 @@ body {
   background-color: #222831;
 }
 
+
 #sidebar-filer {
   padding: 20px;
 }
@@ -97,6 +101,8 @@ body {
   border-radius: 3px;
   margin-left: 5px;
   text-align: left;
+  font-family: "Caveat";
+  font-size: 15px;
 }
 
 #sidebar-button:hover {
