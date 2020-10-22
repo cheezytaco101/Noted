@@ -79,6 +79,34 @@ body {
   background-color: #222831;
 }
 
+#sidebar-filer {
+  padding: 20px;
+}
+
+#sidebar-container {
+  border-left: lightpink dashed;
+  margin-left: 10px;
+}
+
+#sidebar-button {
+  width: 100%;
+  background-color: #222831;
+  padding: 7px;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  text-align: left;
+}
+
+#sidebar-button:hover {
+  background-color: #393e46;
+}
+
+#sidebar-button:active {
+  background-color: white;
+}
+
 #noteBook {
   background-color: #393e46;
   height: 800px;
