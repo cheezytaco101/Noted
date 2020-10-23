@@ -5,8 +5,13 @@
 }
 
 @font-face {
-  font-family: "Caveat";
+  font-family: "Caveat-Bold";
   src: url('Fonts/Caveat/Caveat-Bold.ttf');
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url('Fonts/Caveat/Caveat-Regular.ttf');
 }
 
 
@@ -85,6 +90,7 @@ body {
 
 #sidebar-filer {
   padding: 20px;
+  height: 560px;
 }
 
 #sidebar-container {
@@ -113,6 +119,17 @@ body {
   background-color: white;
 }
 
+#sidebar-nav {
+  background-color: #14171c;
+  padding: 20px;
+  height: 160px;
+}
+
+#sidebar-welcome {
+  font-family: "Caveat";
+  color: white;
+}
+
 #noteBook {
   background-color: #393e46;
   height: 800px;
@@ -136,5 +153,5 @@ body {
   font-size: 35px;
   border: 0px;
   text-align: center;
-  font-family: 'Caveat';
+  font-family: 'Caveat-Bold';
 }
