@@ -14,6 +14,11 @@
   src: url('Fonts/Caveat/Caveat-Regular.ttf');
 }
 
+@font-face {
+  font-family: "Itim";
+  src: url('Fonts/Itim/Itim-Regular.ttf');
+}
+
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -96,6 +101,7 @@ body {
 #sidebar-container {
   border-left: lightpink dashed;
   margin-left: 10px;
+  margin-right: 5px;
 }
 
 #sidebar-button {
@@ -105,9 +111,9 @@ body {
   border: none;
   color: white;
   border-radius: 3px;
-  margin-left: 5px;
+  margin-left: 0px;
   text-align: left;
-  font-family: "Caveat";
+  font-family: "Itim";
   font-size: 15px;
 }
 
