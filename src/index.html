@@ -10,7 +10,7 @@
     <div id="sidebar">
       <div id="sidebar-filer">
         <div id="sidebar-container">
-          <button id="sidebar-button">A manifesto</button>
+          <button id="sidebar-button" onclick="filerClick()">A manifesto</button>
           <button id="sidebar-button">Peanut butter banana</button>
           <button id="sidebar-button">Ruminations</button>
           <button id="sidebar-button">My father, was a drinker</button>
@@ -30,14 +30,7 @@
     </div>
     <div id="noteBook">
       <div id ="noteBook-rim"></div>
-      <div id="noteBook-tabContainer">
-        <input type="button" onclick="tabClick()" id="noteBook-tab" value="Banana"/>
-        <input type="button" id="noteBook-tab" value="Grape" style="background-color: lightsalmon;"/>
-        <input type="button" id="noteBook-tab" value="Grapefruit" style="background-color: lightyellow;"/>
-        <input type="button" id="noteBook-tab" value="Orange" style="background-color: lightgreen;"/>
-        <input type="button" id="noteBook-tab" value="Apple" style="background-color: lightskyblue;"/>
-        <input type="button" id="noteBook-tab" value="Lemon" style="background-color: lightseagreen;"/>
-      </div>
+      <div id="noteBook-tabContainer"></div>
       <div id="noteBook-cover">
         <div id="titleBox">
           <input type="text" id="title"/>
